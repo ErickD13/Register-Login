@@ -2,9 +2,7 @@
 
 Route::group([
 
-    'middleware' => 'api',
-    'namespace' => 'App\Http\Controllers',
-    'prefix' => 'auth'
+    'middleware' => 'api'
 
 ], function ($router) {
 
